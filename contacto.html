@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - INVITALTE</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/koilors.css">
+    <link rel="stylesheet" href="Styles/roles.css">
+    <link rel="stylesheet" href="Styles/navbar.css">
+    <link rel="stylesheet" href="Styles/footer.css">
+</head>
+<body>
+    <header>
+        <img src="Medias/logo.png" alt="Logo de INVITALTE" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="paquetes.html">Paquetes</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 style="text-align: center;">Cotiza tu invitación</h2>
+            <form style="max-width: 600px; margin: 0 auto;">
+                <div style="display: flex; flex-direction: column; gap: 1rem;">
+
+                    <label style="display: flex; flex-direction: row; align-items: center; gap: 1rem;">
+                        <span style="width: 150px;">Nombre:</span>
+                        <input type="text" name="nombre" style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                    </label>
+
+                    <label style="display: flex; flex-direction: row; align-items: center; gap: 1rem;">
+                        <span style="width: 150px;">Teléfono:</span>
+                        <input type="tel" name="telefono" style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                    </label>
+
+                    <label style="display: flex; flex-direction: row; align-items: center; gap: 1rem;">
+                        <span style="width: 150px;">Tipo de evento:</span>
+                        <input type="text" name="evento" style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                    </label>
+
+                    <label style="display: flex; flex-direction: row; align-items: center; gap: 1rem;">
+                        <span style="width: 150px;">Contacto preferido:</span>
+                        <select name="metodo-contacto" style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                            <option value="llamada">Llamada telefónica</option>
+                            <option value="whatsapp">Whatsapp</option>
+                            <option value="correo">Correo electrónico</option>
+                        </select>
+                    </label>
+
+                    <label style="display: flex; flex-direction: row; align-items: center; gap: 1rem;">
+                        <span style="width: 150px;">Correo electrónico:</span>
+                        <input type="email" name="correo" style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                    </label>
+
+                    <div style="text-align: center; margin-top: 2rem;">
+                        <button type="submit" class="boton-contacto" style="font-size: 1.2rem; padding: 15px 40px;">Contactar</button>
+                    </div>
+
+                    <p style="text-align: center; margin-top: 1rem; font-size: 0.95rem; color: var(--on-surface);">
+                        También puedes ponerte en contacto directo con nosotros vía <strong>Whatsapp</strong> para cotizar tu invitación.
+                    </p>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; 2025 INVITALTE</p>
+            <p>Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

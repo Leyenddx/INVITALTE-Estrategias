@@ -58,10 +58,10 @@ body {
     max-width: 400px;
 }
 
-.btn-demo, .btn-contacto {
+.btn-contacto {
     background-color: #007bff;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 140px;
     border: none;
     cursor: pointer;
     border-radius: 5px;

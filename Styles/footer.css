@@ -1,0 +1,9 @@
+footer {
+    background-color: var(--inverse-surface);
+    color: var(--inverse-on-surface);
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
