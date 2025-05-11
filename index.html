@@ -15,6 +15,20 @@
     <title>INVITALTE</title>
 </head>
 
+<!-- Aviso de cookies -->
+<div id="cookie-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: var(--inverse-surface); color: var(--inverse-on-surface); padding: 1rem; text-align: center; z-index: 1000;">
+    <p style="margin: 0 0 10px 0;">Este sitio utiliza cookies para mejorar tu experiencia. Al continuar navegando, aceptas su uso.</p>
+    <button onclick="aceptarCookies()" style="padding: 10px 20px; border: none; background-color: var(--accent); color: var(--on-accent); border-radius: 5px; cursor: pointer;">
+        Aceptar
+    </button>
+</div>
+
+<script>
+    function aceptarCookies() {
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+</script>
+
 <body>
     <header>
         <img src="Medias/logo.png" alt="Logo de INVITALTE" class="logo">
@@ -244,11 +258,13 @@
     </main>
 
     <footer>
-        <div>
-            <p>&copy; 2025 INVITALTE</p>
-            <p>Todos los derechos reservados.</p>
-        </div>
-    </footer>
+    <div>
+        <p>&copy; 2025 INVITALTE</p>
+        <p>Todos los derechos reservados.</p>
+        <p><a href="privacidad.html" style="color: var(--on-accent); text-decoration: underline;">Aviso de privacidad</a></p>
+    </div>
+</footer>
+
 
     <script src="Javascript/animaciones.js"></script>
 </body>
