@@ -83,3 +83,60 @@ footer {
     color: #fff;
     padding: 10px 0;
 }
+
+/* Estilos para la sección de Proceso de Compra */
+.proceso-compra {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 40px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.proceso-compra h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.pasos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.paso {
+    flex: 1 1 200px;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.numero {
+    background-color: #007bff;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.texto h3 {
+    margin: 0 0 5px 0;
+    color: #007bff;
+    font-size: 1.2rem;
+}
+
+.texto p {
+    margin: 0;
+    color: #555;
+}
